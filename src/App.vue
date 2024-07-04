@@ -1,10 +1,19 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Hello from './components/AppTitle.vue';
+
+export default{
+  components:{
+    Hello,
+  }
+};
+
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="container">
+    <Hello/>
+  </div>
 </template>
 
-<style scoped>
+<style scoped>  
 </style>
