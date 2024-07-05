@@ -1,9 +1,11 @@
 <script>
-import Hello from './components/AppTitle.vue';
+import Title from './components/AppTitle.vue';
+import Jumbo from './components/AppHero.vue';
 
 export default{
   components:{
-    Hello,
+    Title,
+    Jumbo,
   }
 };
 
@@ -11,7 +13,8 @@ export default{
 
 <template>
   <div class="container">
-    <Hello/>
+    <Title/>
+    <Jumbo/>
   </div>
 </template>
 
